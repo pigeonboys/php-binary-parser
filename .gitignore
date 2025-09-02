@@ -1,0 +1,26 @@
+# Composer vendor directory
+/vendor/
+
+# PHPUnit cache and results
+/.phpunit.cache/
+/.phpunit.result.cache
+
+# PHP Coding Standards Fixer cache
+.php-cs-fixer.cache
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.swp
+/*~ 
+/.DS_Store
+
+# Logs and temp files
+/logs/
+/tmp/
+/*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

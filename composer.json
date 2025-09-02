@@ -1,0 +1,28 @@
+{
+    "autoload": {
+        "psr-4": {
+            "PigeonBoys\\PhpBinaryParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PigeonBoys\\PhpBinaryParser\\Tests\\": "tests/"
+        }
+    },
+    "description": "A PHP library for parsing binary data, with full support for signed/unsigned integers and endian-aware formats.",
+    "license": "MIT",
+    "name": "pigeonboys/php-binary-parser",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "friendsofphp/php-cs-fixer": "^3.86"
+    },
+    "scripts": {
+        "fix": "php-cs-fixer fix --verbose",
+        "test": "phpunit --colors=always --testdox"
+    },
+    "type": "library",
+    "version": "0.9.0"
+}
